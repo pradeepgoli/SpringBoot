@@ -17,7 +17,7 @@ public class Example {
 	
 	@RequestMapping("/name")
 	String name(){
-		return "pradeepgolireddy";
+		return "pradeepgoli";
 	}
 	
 	public static void main(String args[]) {
