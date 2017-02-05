@@ -7,11 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
+@RequestMapping("/boot")
 public class Example {
 
-	@RequestMapping("/")
+	@RequestMapping("/home")
 	String home() {
 		return "Hello world";
+	}
+	
+	@RequestMapping("/name")
+	String name(){
+		return "pradeepgoli";
 	}
 	
 	public static void main(String args[]) {
